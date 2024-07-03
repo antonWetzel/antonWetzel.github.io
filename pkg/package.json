@@ -1,0 +1,15 @@
+{
+  "name": "treee-wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "treee_wasm_bg.wasm",
+    "treee_wasm.js",
+    "treee_wasm.d.ts"
+  ],
+  "main": "treee_wasm.js",
+  "types": "treee_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
